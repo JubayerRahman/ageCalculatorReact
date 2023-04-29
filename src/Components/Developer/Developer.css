@@ -1,0 +1,30 @@
+.developerField{
+    margin-top: 16px;
+    font-size: 12px;
+    font-family: 'Bruno Ace', cursive;
+    /* color: #282c34; */
+    color: #874cff;
+}
+.link{
+    text-decoration: none;
+    color:  white ;
+    /* background-color: #282c34; */
+    background-color: #874cff;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0px 10px;
+}
+.link:hover{
+    background-color: darkgray;
+    border: 2px solid #874cff;
+    color: #874cff;
+    transition: 0.5s ease-in-out;
+}
+
+@media (max-width:768px) {
+    .developerField{
+        font-size: 5px;
+        text-align: center;
+        margin-top: 40px;
+    }
+}
