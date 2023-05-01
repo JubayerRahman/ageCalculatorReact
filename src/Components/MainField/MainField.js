@@ -28,7 +28,7 @@ const MainField =()=>{
         console.log(monthtoDay)
         
     }
-    let totalDays = 0
+    let totalDays = monthtoDay
     if (rDay>0){
          totalDays = monthtoDay + rDay
          console.log("totalDays: "+ totalDays)
